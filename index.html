@@ -1,49 +1,118 @@
-<!DOCTYPE html><html lang="hi">
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Rolex Demo Board</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ROLEX LIVE RESULT</title>
 <style>
-body{margin:0;background:#080d16;color:white;font-family:Arial,sans-serif}
-header{text-align:center;padding:25px 10px;background:#111c2b;border-bottom:2px solid #ffd54a}
-h1,h2{color:#ffd54a}
-.container{max-width:850px;margin:auto;padding:15px}
-.notice{text-align:center;padding:12px;border:1px solid #ffd54a;border-radius:8px;color:#ffe59a}
-.games,.results{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:15px}
-.game,.card{background:#142237;border:1px solid #d6a928;border-radius:10px;padding:18px 8px;text-align:center}
-.game{font-weight:bold}
-.card h3{color:#ffd54a}
-.number{font-size:28px;color:#50e49a;font-weight:bold}
-footer{text-align:center;color:#aab5c5;padding:25px 10px;font-size:13px}
-@media(min-width:600px){.games,.results{grid-template-columns:repeat(4,1fr)}}
+*{box-sizing:border-box}
+body{
+ margin:0;background:#09070b;color:#fff;
+ font-family:Arial,sans-serif
+}
+header{
+ text-align:center;padding:24px 10px;
+ background:linear-gradient(135deg,#32051f,#09070b);
+ border-bottom:2px solid #ff299b
+}
+.logo{
+ display:inline-block;border:2px solid #ff299b;
+ border-radius:8px;padding:8px 18px;
+ color:#ff299b;font-size:27px;font-weight:900;
+ letter-spacing:4px
+}
+h1{color:#ff299b;font-size:23px}
+header p{font-size:12px;color:#ddd}
+.notice{
+ margin:14px;padding:12px;text-align:center;
+ background:#21101d;border:1px solid #69234f;
+ border-radius:8px;color:#ff9bd1;font-size:13px
+}
+main{max-width:760px;margin:auto;padding:0 12px 25px}
+h2{text-align:center;color:#ff299b;font-size:19px;margin:25px 0 16px}
+.card{
+ display:flex;justify-content:space-between;
+ align-items:center;gap:10px;
+ padding:17px 13px;margin-bottom:12px;
+ background:linear-gradient(135deg,#201622,#100d12);
+ border:1px solid #542443;border-left:4px solid #ff299b;
+ border-radius:10px
+}
+.name{font-size:16px;font-weight:bold;letter-spacing:1px}
+.status{font-size:11px;color:#ff9bd1;margin-top:7px}
+.number{font-size:24px;font-weight:900;color:#ff299b}
+.tag{font-size:10px;color:#ffb6dc;margin-top:7px}
+footer{
+ text-align:center;padding:22px 10px;
+ border-top:1px solid #39202f;color:#aaa;font-size:12px
+}
+footer strong{color:#ff299b}
 </style>
 </head>
 <body>
 <header>
-<h1>👑 ROLEX DEMO BOARD</h1>
-<p>Professional Website</p>
+ <div class="logo">ROLEX</div>
+ <h1>🔥 LIVE RESULT 🔥</h1>
+ <p>PINK & BLACK • RESULT BOARD</p>
 </header>
-<main class="container">
-<div class="notice">⚠️ ही डेमो वेबसाइट आहे. सर्व अंक काल्पनिक आहेत.</div>
-<h2>AVAILABLE BOARDS</h2>
-<section class="games">
-<div class="game">SRIDEVI</div>
-<div class="game">KALYAN</div>
-<div class="game">MAIN BAZAR</div>
-<div class="game">MILAN</div>
-<div class="game">TIME BAZAR</div>
-<div class="game">ROLEX DAY</div>
-<div class="game">ROLEX NIGHT</div>
-<div class="game">STARLINE</div>
-</section>
-<h2>DEMO NUMBERS</h2>
-<section class="results">
-<div class="card"><h3>SRIDEVI</h3><div class="number">123</div><p>Demo only</p></div>
-<div class="card"><h3>KALYAN</h3><div class="number">456</div><p>Demo only</p></div>
-<div class="card"><h3>MAIN BAZAR</h3><div class="number">789</div><p>Demo only</p></div>
-<div class="card"><h3>MILAN</h3><div class="number">234</div><p>Demo only</p></div>
-</section>
+
+<div class="notice">
+ DEMO WEBSITE — आकडे फक्त नमुना आहेत.
+</div>
+
+<main>
+ <h2>✦ RESULT BOARD ✦</h2>
+
+ <div class="card">
+  <div>
+   <div class="name">SRIDEVI</div>
+   <div class="status">DEMO RESULT</div>
+   <div class="tag">SAMPLE ONLY</div>
+  </div>
+  <div class="number">---</div>
+ </div>
+
+ <div class="card">
+  <div>
+   <div class="name">KALYAN</div>
+   <div class="status">DEMO RESULT</div>
+   <div class="tag">SAMPLE ONLY</div>
+  </div>
+  <div class="number">---</div>
+ </div>
+
+ <div class="card">
+  <div>
+   <div class="name">MAIN BAZAR</div>
+   <div class="status">DEMO RESULT</div>
+   <div class="tag">SAMPLE ONLY</div>
+  </div>
+  <div class="number">---</div>
+ </div>
+
+ <div class="card">
+  <div>
+   <div class="name">MILAN</div>
+   <div class="status">DEMO RESULT</div>
+   <div class="tag">SAMPLE ONLY</div>
+  </div>
+  <div class="number">---</div>
+ </div>
+
+ <div class="card">
+  <div>
+   <div class="name">TIME BAZAR</div>
+   <div class="status">DEMO RESULT</div>
+   <div class="tag">SAMPLE ONLY</div>
+  </div>
+  <div class="number">---</div>
+ </div>
 </main>
-<footer>केवळ डेमोसाठी. हे वास्तविक सट्ट्याचे निकाल नाहीत.</footer>
+
+<footer>
+ <strong>ROLEX LIVE RESULT</strong><br><br>
+ Demo display only
+</footer>
 </body>
 </html>
